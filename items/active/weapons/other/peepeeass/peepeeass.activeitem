@@ -31,7 +31,7 @@
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/gun/gristlegun3.ogg" ]
+      "fire" : [ "sounds/1.ogg", "sounds/2.ogg", "sounds/3.ogg", "sounds/4.ogg", "sounds/5.ogg", "sounds/6.ogg" ]
     }
   },
   "baseOffset" : [0.75, 0.125],
