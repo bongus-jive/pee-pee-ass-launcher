@@ -1,6 +1,6 @@
 {
   "itemName" : "peepeeass",
-  "level" : 4,
+  "level" : 5,
   "price" : 69000,
   "maxStack" : 69,
   "rarity" : "Legendary",
@@ -52,7 +52,7 @@
     "projectileCount" : 69,
     "fireType" : "auto",
 
-    "projectileType" : "beachball",
+    "projectileType" : ["beachball", "bowlingball", "bouncyball", "paperplane", "noveltybanana", "throwingboulder", "crystalshard1", "crystalshard2", "crystalshard4", "crystalshard6", "dragonhead", "spiderlegright", "spiderlegleft", "coconut"],
     "projectileParameters" : {
       "knockback" : 30,
       "statusEffects" : [ "weakpoison" ],
@@ -93,10 +93,10 @@
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "gristlegun_l6.png",
+    "inventoryIcon" : "peepeeass_l6.png",
     "animationParts" : {
-      "middle" : "gristlegun_l6.png"
+      "middle" : "peepeeass_l6.png"
     },
-    "shortdescription" : "Cartilage Gun ^yellow;^reset;"
+    "shortdescription" : "pee pee ass launcher ^yellow;^reset;"
   }
 }
