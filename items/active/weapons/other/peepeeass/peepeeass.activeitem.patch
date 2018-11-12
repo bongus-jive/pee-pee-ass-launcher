@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/level",
+    "value": 5
+  },
+  {
+    "op": "replace",
+    "path": "/animationCustom/sounds/fire/0",
+    "value": "sounds/1.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds/fire/-",
+    "value": "sounds/2.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds/fire/-",
+    "value": "sounds/3.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds/fire/-",
+    "value": "sounds/4.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds/fire/-",
+    "value": "sounds/5.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds/fire/-",
+    "value": "sounds/6.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/primaryAbility/projectileType",
+    "value": [
+      "beachball",
+      "bowlingball",
+      "bouncyball",
+      "paperplane",
+      "noveltybanana",
+      "throwingboulder",
+      "crystalshard1",
+      "crystalshard2",
+      "crystalshard4",
+      "crystalshard6",
+      "dragonhead",
+      "spiderlegright",
+      "spiderlegleft",
+      "coconut"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/upgradeParameters/inventoryIcon",
+    "value": "peepeeass_l6.png"
+  },
+  {
+    "op": "replace",
+    "path": "/upgradeParameters/animationParts/middle",
+    "value": "peepeeass_l6.png"
+  },
+  {
+    "op": "replace",
+    "path": "/upgradeParameters/shortdescription",
+    "value": "pee pee ass launcher ^yellow;^reset;"
+  }
+]
