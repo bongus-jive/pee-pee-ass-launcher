@@ -41,6 +41,11 @@
   },
   {
     "op": "replace",
+    "path": "/primaryAbility/scripts",
+    "value": ["/items/active/weapons/other/peepeeass/peepeeass.lua"]
+  },
+  {
+    "op": "replace",
     "path": "/primaryAbility/projectileType",
     "value": [
       "beachball",
