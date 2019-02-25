@@ -6,33 +6,8 @@
   },
   {
     "op": "replace",
-    "path": "/animationCustom/sounds/fire/0",
-    "value": "sounds/1.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/animationCustom/sounds/fire/-",
-    "value": "sounds/2.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/animationCustom/sounds/fire/-",
-    "value": "sounds/3.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/animationCustom/sounds/fire/-",
-    "value": "sounds/4.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/animationCustom/sounds/fire/-",
-    "value": "sounds/5.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/animationCustom/sounds/fire/-",
-    "value": "sounds/6.ogg"
+    "path": "/animationCustom/sounds/fire",
+    "value": ["sounds/1.ogg","sounds/2.ogg","sounds/3.ogg","sounds/4.ogg","sounds/5.ogg","sounds/6.ogg","sounds/7.ogg","sounds/8.ogg","sounds/9.ogg","sounds/10.ogg","sounds/11.ogg","sounds/12.ogg,"sounds/13.ogg"]
   },
   {
     "op": "replace",
