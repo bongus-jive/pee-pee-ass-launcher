@@ -36,6 +36,11 @@
   },
   {
     "op": "replace",
+    "path": "/primaryAbility/projectileCount",
+    "value": "3"
+  },
+  {
+    "op": "replace",
     "path": "/primaryAbility/projectileType",
     "value": [
       "beachball",
