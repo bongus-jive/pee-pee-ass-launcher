@@ -1,0 +1,119 @@
+{
+  "itemName" : "pat_peepeeass",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "oh yeah woo yeah babey i am in pain woo hoo",
+  "shortdescription" : "^#f2779c;P^#ff80ce;e^#de73ff;e ^#996cfd;P^#7b65ee;e^#6e6bff;e ^#6774dd;A^#6781dd;s^#6a97d8;s ^#71a5e2;L^#86d7ff;a^#95ffff;u^#80ffb9;n^#7fe292;c^#96e983;h^#d3f585;e^#f3e87c;r",
+  "tooltipKind" : "base",
+  "category" : "death",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","upgradeableWeapon"],
+  "level" : 5,
+
+  "inventoryIcon" : "peepeeass.png",
+
+  "animation" : "peepeeass.animation",
+  "animationParts" : {
+    "middle" : "peepeeass.png",
+    "middlefb" : "peepeeassfb.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+
+  "baseOffset" : [0.0, 0.5],
+  "muzzleOffset" : [2.375, 0.125],
+	
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "animationScripts" : ["/pat/peepeeasslauncher/images.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/pat/peepeeasslauncher/gunfire.lua"],
+    "class" : "GunFire",
+		
+		"upgraded" : false,
+
+    "fireTime" : 0.5,
+
+    "projectileCount" : 5,
+    "fireType" : "auto",
+
+    "projectileType" : ["astraltear","astraltearstart","astraltearstop","boomerang","boomerang_l6","fireboomerang","fireboomerang_l6","iceboomerang","iceboomerang_l6","lunarang","lunarangshard","lunarangshard_l6","lunarang_l6","wormerang","wormerang_l6","chakram","chakram_l6","hardchakram","hardchakram_l6","neochakram","neochakram_l6","sawchakram","sawchakram_l6","chargeshotlarge","chargeshotsmall","delaybullet","doomgrenade","doomshot","dragonfirelarge","dragonfiresmall","electricspinswoosh","firespinswoosh","icespinswoosh","poisonspinswoosh","electricshockwave","fireshockwave","iceshockwave","physicalshockwave","poisonshockwave","shockwavespawner","watershockwave","energyshardplayer","evileyeprojectile","fishinglure","fishinglurecontrol","fishinglurelight","fishingluresinking","fuelaircloud","fuelairignition","climbingropehook","grapplehook","electricguidedrocket","exmachinarocket","fireguidedrocket","guidedrocket","iceguidedrocket","poisonguidedrocket","iceburstcloud","iceburster","magnorb","miniknogrocket","miniwobbleshot","electricpillar","firepillar","icepillar","pillarspawner","poisonpillar","remotegrenade","remotestickygrenade","scouteye","spaceplasma","balllightning","boltguide","electricbouncer","firebouncer","icebouncer","poisonbouncer","electricelementcloud","fireelementcloud","iceelementcloud","poisonelementcloud","electricorb","fireorb","iceorb","poisonorb","electricportal","fireportal","iceportal","poisonportal","electricrain","firerain","icerain","poisonrain","electricstickyspikes","firestickyspikes","icestickyspikes","poisonstickyspikes","electricswarmer","fireswarmer","iceswarmer","poisonswarmer","energyzone","forcecage","healingzone","kluexstaffplasma","kluexzone","lowgravzone","plasmaball","plasmablade","pullzone","pushzone","slowzone","stickyplasma","electrictrail","firetrail","icetrail","poisontrail","wormtrail","wormtrail_l6","translocatordisc","electrictravelingswoosh","energytravelingswoosh","firetravelingswoosh","icetravelingswoosh","poisontravelingswoosh","webblast","whipcrackbloody","whipcrackelectric","whipcrackphysical","whipcrackpoison","whipshock","apebossmissile","energyfist","lightdagger","lightpellet","crystalbeamdamage","crystallaser","crystalshard1","crystalshard2","crystalshard3","crystalshard4","crystalshard5","crystalshard6","moontantspawn","energyshard","dragonbone","dragonfoot","dragonhead","spacemonsterspawner","delayedplasmashot","electricfloorhazard","firefloorhazard","icefloorhazard","poisonfloorhazard","electricguardianbullet","fireguardianbullet","iceguardianbullet","poisonguardianbullet","electricguardiandamagearea","fireguardiandamagearea","iceguardiandamagearea","poisonguardiandamagearea","guardiandamagebuff","guardiandeathexplosion","guardiandeathexplosionspawner","electricguardianexplosion","fireguardianexplosion","iceguardianexplosion","poisonguardianexplosion","electricguardianlargeexplosion","fireguardianlargeexplosion","iceguardianlargeexplosion","poisonguardianlargeexplosion","electricguardianpellet","fireguardianpellet","iceguardianpellet","poisonguardianpellet","plasmashot","delayedplasmaball","energycrystal","energywave","floorlava","iceeruption","iceeruptiontele","redplasmatorpedo","pillarplatform","robotshock","shockhoppermissile","acidsweep","ixolingspawn","meatchunk","spiderslam","spiderlegleft","spiderlegright","acidexplosion","beamdownknockback","bigboulderexplosion","bombblockexplosion","bonechain1","bonechain2","bonechain3","bonedustexplosion","bouldersmashexplosion","bouldersmashexplosionuniversal","burningexplosion","electricburstexplosion","fireburstexplosion","iceburstexplosion","poisonburstexplosion","burstfire","cellexplosion","clustermineexplosion","coconutbreak","defensiveexplosion","doomexplosion","doomgrenadeexplosion","dungeonpodexplosion","electricexplosion","electricplasmaexplosion","electricplasmaexplosionstatus","fireplasmaexplosion","fireplasmaexplosionstatus","iceplasmaexplosion","iceplasmaexplosionstatus","physicalexplosion","physicalexplosionknockback","poisonplasmaexplosion","poisonplasmaexplosionstatus","energyshardexplosion","fireexplosion","friendlyboneexplosion","generatorexplosion","giganticsnowballexplosion","glitchexplosion","blueglobeexplosion","greenglobeexplosion","magentaglobeexplosion","orangeglobeexplosion","redglobeexplosion","whiteglobeexplosion","yellowglobeexplosion","hgravityexplosion","ngravityexplosion","grenadeexplosion","healcloud","hivebombexplosion1","hivebombexplosion2","hivebombexplosion3","hivebombexplosion4","lightblockexplosion","mechexplosion","meteorexplosion","molotovexplosion","paintexplosionblue","paintexplosiongreen","paintexplosionorange","paintexplosionpurple","paintexplosionred","paintexplosionyellow","plasmaexplosion2","poexplosion","poisonsmoke","pulsecannonexplosion","pulsecannonexplosionuniversal","redpulsecannonexplosion","regularexplosion","regularexplosionspawner","regularexplosionuniversal","electricexplosionknockback","enemyregularexplosion2","fireexplosionknockback","iceexplosionknockback","poisonexplosionknockback","regularexplosion2","regularexplosionknockback","regularexplosionnospark","robotwake","rocketexplosion","slimeexplosion","smallpoisonexplosion","smallpoisonexplosionuniversal","smallregularexplosion","smallregularexplosionuniversal","smoke","smokeexplosion","snowballexplosion","spacemineexplosion","splashexplosion1","starcleaverboom","tarexplosion","targetexplosion","vlightblockexplosion","vsmallplasmaexplosion","vsmallregularexplosion","vsmallregularexplosionknockback","vsmallregularexplosionnodamage","vsmallregularexplosionnosound","watersplash","firefinish","firepart1","firepart2","firepart3","firepart4","firepart5","chargedarrow","chargedflamearrow","chargedheartarrow","chargedicearrow","chargedironarrow","chargedlightarrow","chargedpoisonarrow","chargedpurplearrow","electricbolt","chargedenergyarrow","energyarrow","explosivebolt","flamearrow","flamebolt","chargedharpoon","harpoon","heartarrow","heckarrow","hgravitybolt","icearrow","icebolt","ironarrow","lightarrow","ngravitybolt","poisonarrow","poisonbolt","purplearrow","flamingwoodenarrow","woodenarrow","woodenbolt","airburst","airburstbullet","airburstelectric","airburstelectricbullet","airburstfire","airburstfirebullet","airburstice","airbursticebullet","airburstpoison","airburstpoisonbullet","bonethorn","bouncybullet","bullet-1","bullet-2","bullet-3","bullet-4","cactusthorns","carhorn","chainbullet","chainbullet2","delayed","explosivebullet","piercingexplosivebullet","fast","huntingbullet","needlerthorns","paintballblue","paintballgreen","paintballorange","paintballpurple","paintballred","paintballyellow","pellet","piercingbullet","splitbullet","standardbullet","stickybullet","stingergunsting","tankmuzzleflash","trishot","turretbullet","largeelectriccloud","largefirecloud","largeicecloud","largepoisoncloud","smallelectriccloud","smallfirecloud","smallicecloud","smallpoisoncloud","acidgrenade","acidgrenadecluster","bomb","bouncycluster","bouncyclustergrenade","electriccloudgrenade","firecloudgrenade","icecloudgrenade","poisoncloudgrenade","cluster","clustergrenade","erchiusbomb","erchiuscluster","fruitthorn","gravitybomb","electricplasmagrenade","electricplasmagrenadestatus","fireplasmagrenade","fireplasmagrenadestatus","grenade","iceplasmagrenade","iceplasmagrenadestatus","poisonplasmagrenade","poisonplasmagrenadestatus","grenadeimpact","electricplasmaimpactgrenade","electricplasmaimpactgrenadestatus","fireplasmaimpactgrenade","fireplasmaimpactgrenadestatus","iceplasmaimpactgrenade","iceplasmaimpactgrenadestatus","impactgrenade","poisonplasmaimpactgrenade","poisonplasmaimpactgrenadestatus","marioball","mouse","nail","nailbomb","pig","pill","electricproximitymine","electricproximityminestatus","fireproximitymine","fireproximityminestatus","iceproximitymine","iceproximityminestatus","poisonproximitymine","poisonproximityminestatus","proximitymine","shock","shockbomb","shrapnel","shrapnelbomb","spikeball","splitter","electricstickygrenade","electricstickygrenadestatus","firestickygrenade","firestickygrenadestatus","icestickygrenade","icestickygrenadestatus","poisonstickygrenade","poisonstickygrenadestatus","stickygrenade","orbitaldown","orbitallaunch","orbitalup","blueplasmabullet","chainelectricplasma","chainelectricplasma2","chainfireplasma","chainfireplasma2","chainiceplasma","chainiceplasma2","chainpoisonplasma","chainpoisonplasma2","electricplasma","fireplasma","greenplasmabullet","iceplasma","plasma1","plasma2","plasma3","plasma4","plasma4green","plasma4pink","plasmabouncer","plasmabullet","poisonplasma","spinningplasmabullet","yellowplasmabullet","homingrocket","minirocket","brokenglassslide","chinaslide","crystalslide","glassslide","glowslide","goldslide","plasticslide","invisibletentaclefist","invisibletentaclefistnosound","tentaclefist","blowdart","brainbullet","brainshock","bustershot","cellzap1","cellzap2","cellzap3","cellzap4","cellzap5","chargedbustershot","deathbombdart","deathbombdartelectric","deathbombdartfire","deathbombdartice","deathbombdartpoison","diamondshard","electricplasmarocket","electricplasmarocketstatus","electro","energyjavelin","fireplasmarocket","fireplasmarocketstatus","flamethrower","iceplasmarocket","iceplasmarocketstatus","icethrower","javelin","blueglobe","greenglobe","magentaglobe","orangeglobe","orangeglobemini","redglobe","whiteglobe","yellowglobe","lightning2","lightningthrower","poisonplasmarocket","poisonplasmarocketstatus","poisonthrower","pollenpumpgas","pollenpumpgasspray","railgunlightning","reed","rocket","rocketshell","rocketuniversal","shuriken","squirt","tarblob","invisibleprojectile","lavaballoon","lavaprojectile","meteorblockprojectile","throwingblock","armcannonfire","clustermine","energybeam","flakbullet","gravitymine","gravitysphere","heatbeam","heavybullet","mechbladeswoosh","mechchainsawswoosh","mechenergypickup","mechhomingmissile","mechminimissile","mechmissile","mechplasmabullet","mechteslabolt","spikefistrocket","splitterbullet","splittershell","wobbleshot","acidspit","beetle","biolumcritters","biolumcritters1","biolumcritters2","bloodvomit","bluefire","blueflame","blueflamethrower","bubbles","burninghalo","cellblast","chomp","clustergoo","crabcanoball","darkgas","darkgravityball","darkplasma","dragonblockbuster","dragonprojectile","electriclance","energyflame","explosivegoo","evileyeball","eyeball","eyeballspray","fireball","firelasershot","fireswirl","fish1","fish2","fish3","fish4","randomfish","flame","flyswarm","frozengravityball","gas","gas2","glitter","glitterspray","glowygoocluster","goocluster","gooroller","grabbed","hugemeleeslash","icebreath","icecloud","icerock","iceshot","inksplash","inkspray","jellybossexplode","jellybossgoo","lightball","lightballout","lightning","meleebite","meleebutt","meleelash","meleelashdown","meleelashup","meleeslash","meteor","minidragon","moontantgoop","mudball","multibone","orbofzots","zotsorb","zotszot","penguintankround","penguinufobeam","penguinufocharge","pipkindust","plasmasweep","plasmatorpedo","poball","poopbreath","sporepuff","sporeseed","pulsecannon","rainbow","rainbowgnome","leafgust","razorleaf","roar","rock","rockroll","multirockshard","rockshard","seed","preshortbeam","shortbeam","smoglingas","smokering","snauntspit","snotblock","snotbubblefloat","snotbubblepop","snotbubblestart","snuffishspit","sonic","sonicwave","spicecloud","spinslash","staticdischarge","staticFireball","swipe","doublethorns","thorns","twistingpulse","watergun","webshot","poisonballoon","bombstatusprojectile","statusbomb","bouncystatusprojectile","burningstatusprojectile","clusterstatusprojectile","copperbomb","copperbombstatusprojectile","diamondbomb","diamondbombstatusprojectile","glowstatusprojectile","goldbomb","goldbombstatusprojectile","fasthealingstatusprojectile","healingstatusprojectile","jumpgas","jumpstatusprojectile","levitationstatusprojectile","lowgravstatusprojectile","moneystatusprojectile","platinumbomb","platinumbombstatusprojectile","poisonstatusprojectile","ragestatusprojectile","rungas","runstatusprojectile","silverbomb","silverbombstatusprojectile","waterstatusprojectile","carrot","electric","electroball","greenplasma","kunai","ninjastar","pulse","purpleplasma","spinningrocket","stationaryrocket","beachball","zbomb","bone","boulderblast","bouncyball","bowlingball","capturepod","filledcapturepod","firework","firework2","firework3","firework4","fireworkblue","fireworkblue2","fireworkblue3","fireworkblue4","fireworkgreen","fireworkgreen2","fireworkgreen3","fireworkgreen4","fireworkgun","fireworkgunblue","fireworkgungreen","fireworkgunred","fireworkgunyellow","fireworkgun2","fireworkgun3","fireworkgunyellow2","fireworkgunyellow3","fireworkred2","fireworkred3","flare","flowerygrassseeds","flowerygrassseedspray","glowbomb","glowgas","glowstickblue","glowstickgreen","glowstickorange","glowstickyellow","grassseeds","grassseedspray","hadouken","hivebomb","hiveswarm","huntingspear","cultistmolotov","molotov","molotovflame","molotovflamemonster","noveltybanana","paperplane","petball","snowball","giganticsnowball","largesnowball","mediumsnowball","snowflakeshuriken","tarball","thorngrenade","throwingaxe","throwingbone","throwingbones","throwingboulder","throwingdagger","throwingdart","throwinggnome","throwinggnome1","throwinggnome2","throwinggnome3","throwinggnome4","throwinggnome5","throwinggnome6","throwinggnome7","throwingknife","throwingkunai","throwingneedle","throwingspear","throwingstar","snowandwaterballoon","waterballoon","ancientboulderappear","ancientsmoothboulderappear","ancientboulderrolling","ancientsmoothboulderrolling","ancientbouldersmash","ancientcrystaltrapbeam","arenaflame","arenaflamestatus","arenainvisible","avianboulderappear","aviansmoothboulderappear","avianboulderrolling","aviansmoothboulderrolling","avianbouldersmash","floranboulderappear","floransmoothboulderappear","floranboulderrolling","floransmoothboulderrolling","freezetrapbeam","freezetrapbeamlong","freezetrapbeamshort","jumpboostergas","jumpboostergas30","jumpboostergas60","lowgravboostergas","lowgravboostergas30","lowgravboostergas60","powerboostergas","powerboostergas30","powerboostergas60","speedboostergas","speedboostergas30","speedboostergas60","trapboulder","trapboulderappear","trapboulderbouncy","trapboulderbouncylong","trapboulderbouncyappear","trapboulderbouncylongappear","trapbouldersmash","trapflame","trapice","anglurebulb","ballistabolt","bobfaeball","chiropterrortrail","crustoiseshell","mandrafloraeye","nutmidgeshell","ocueye","omnicannonbullet","orbideball","planet","pulpinbrain","pulpinwater","tentaclecomet1","tentaclecomet2","tentaclecomet3","tentaclecomet4","tentaclecomet5","tentaclecomet6","tentaclecomet7","tentaclecomet8","twigunbullet","ancientenergy","armornova","novadamage","armorthornburst","armorthorns","coconut","cropshipment","electricbarrier","firebarrier","icebarrier","poisonbarrier","explosivebarrel","explosivegenerator","friendlybubble","money","monstercaptureenergy","poisonbarrel","stationpartsound","teslabolt","teslaboltsmall","watersprinkle","watersprinkledroplet","ash","crystalrain","ember","fogprimer","glowingrain","hail1","hail2","hail3","hail4","icestorm","junkrocket1","junkrocket2","junksatellite","junksatellite2","junktire","largemeteor","mistprimer","sand","sandstorm","settlinglightash","settlingsnow","smallmeteor","spacedust1","lightwater","water","windstorm1","windstorm2","windstorm3","windstorm4"],
+    "projectileParameters" : {},
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+		"inventoryIcon" : "peepeeass_l6.png",
+		"animationParts" : {
+			"middle" : "peepeeass_l6.png",
+			"middlefb" : "peepeeassfb_l6.png"
+		},
+		"primaryAbility" : {
+			"upgraded" : true,
+			
+			"stances" : {
+				"idle" : {
+					"armRotation" : 0,
+					"weaponRotation" : 0,
+					"armAngularVelocity" : -1080,
+					"weaponAngularVelocity" : 1080,
+
+					"allowRotate" : true,
+					"allowFlip" : true,
+					"twoHanded" : false
+				},
+				"fire" : {
+					"duration" : 0,
+					"armRotation" : 3,
+					"weaponRotation" : 3,
+					"armAngularVelocity" : -1080,
+					"weaponAngularVelocity" : 1080,
+
+					"allowRotate" : false,
+					"allowFlip" : false,
+					"twoHanded" : false
+				},
+				"cooldown" : {
+					"duration" : 0.15,
+					"armRotation" : 3,
+					"weaponRotation" : 3,
+
+					"allowRotate" : false,
+					"allowFlip" : false,
+					"twoHanded" : false
+				}
+			}
+		}
+  }
+}
