@@ -12,7 +12,7 @@
   {
     "op": "replace",
     "path": "/primaryAbility/projectileCount",
-    "value": "3"
+    "value": 3
   },
   {
     "op": "replace",
