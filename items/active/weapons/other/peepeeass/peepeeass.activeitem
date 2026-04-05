@@ -49,7 +49,7 @@
     "fireTime": 0.5,
     "baseDps": 69.69,
     "energyUsage": 18.75,
-    "inaccuracy": 0.02,
+    "inaccuracy": 0.2,
     "projectileCount": 69,
     "fireType": "auto",
 
