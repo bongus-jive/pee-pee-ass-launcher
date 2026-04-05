@@ -100,7 +100,7 @@
     "animationParts": { "middle": "peepeeass_l6.png" },
     "level": 10,
     "primaryAbility": {
-      "projectileCount": 3,
+      "projectileCount": 6,
       "projectileType": [
         "astraltear", "astraltearstart", "astraltearstop", "boomerang", "boomerang_l6", "fireboomerang", "fireboomerang_l6", "iceboomerang", "iceboomerang_l6", "lunarang", "lunarangshard", "lunarangshard_l6",
         "lunarang_l6", "wormerang", "wormerang_l6", "chakram", "chakram_l6", "hardchakram", "hardchakram_l6", "neochakram", "neochakram_l6", "sawchakram", "sawchakram_l6", "chargeshotlarge",
