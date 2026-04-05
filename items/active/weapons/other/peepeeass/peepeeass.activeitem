@@ -1,43 +1,100 @@
-[
-  {
-    "op": "replace",
-    "path": "/level",
-    "value": 5
+{
+  "itemName": "peepeeass",
+  "level": 5,
+  "price": 69000,
+  "maxStack": 69,
+  "rarity": "Legendary",
+  "description": "This pistol generates its own natural ass nut hahahahhaahahahahpeepeeasspeepeeasspeepeeass. nice.",
+  "shortdescription": "pee pee ass launcher",
+  "tooltipKind": "gun",
+  "category": "pistol",
+  "twoHanded": false,
+  "itemTags": [ "weapon", "ranged", "pistol", "upgradeableWeapon" ],
+
+  "inventoryIcon": "peepeeass.png",
+
+  "animation": "/items/active/weapons/ranged/gun.animation",
+  "animationParts": {
+    "butt": "",
+    "middle": "peepeeass.png",
+    "barrel": "",
+    "muzzleFlash": ""
   },
-  {
-    "op": "replace",
-    "path": "/animationCustom/sounds/fire",
-    "value": [ "sounds/1.ogg", "sounds/2.ogg", "sounds/3.ogg", "sounds/4.ogg", "sounds/5.ogg", "sounds/6.ogg", "sounds/7.ogg", "sounds/8.ogg", "sounds/9.ogg", "sounds/10.ogg", "sounds/11.ogg", "sounds/12.ogg", "sounds/13.ogg" ]
+  "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        "particles": [
+          { "particle": "rocketbarrelpuff", "offset": [ 0.0, 0.0 ] },
+          { "particle": "rocketbarrelpuff", "offset": [ 0.0, 0.0 ] },
+          { "particle": "rocketbarrelpuff", "offset": [ 0.0, 0.0 ] }
+        ]
+      }
+    },
+    "sounds": {
+      "fire": [ "sounds/1.ogg", "sounds/2.ogg", "sounds/3.ogg", "sounds/4.ogg", "sounds/5.ogg", "sounds/6.ogg", "sounds/7.ogg", "sounds/8.ogg", "sounds/9.ogg", "sounds/10.ogg", "sounds/11.ogg", "sounds/12.ogg", "sounds/13.ogg" ]
+    }
   },
-  {
-    "op": "replace",
-    "path": "/primaryAbility/projectileType",
-    "value": [ "beachball", "bowlingball", "bouncyball", "paperplane", "noveltybanana", "throwingboulder", "crystalshard1", "crystalshard2", "crystalshard4", "crystalshard6", "dragonhead", "spiderlegright", "spiderlegleft", "coconut" ]
+  "baseOffset": [ 0.75, 0.125 ],
+  "muzzleOffset": [ 1.0, 0.125 ],
+
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+
+  "elementalType": "poison",
+
+  "primaryAbility": {
+    "scripts": [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class": "GunFire",
+
+    "fireTime": 0.5,
+    "baseDps": 69.69,
+    "energyUsage": 18.75,
+    "inaccuracy": 0.02,
+    "projectileCount": 69,
+    "fireType": "auto",
+
+    "projectileType": [ "beachball", "bowlingball", "bouncyball", "paperplane", "noveltybanana", "throwingboulder", "crystalshard1", "crystalshard2", "crystalshard4", "crystalshard6", "dragonhead", "spiderlegright", "spiderlegleft", "coconut" ],
+    "projectileParameters": {
+      "knockback": 30,
+      "statusEffects": [ "weakpoison" ],
+      "bounces": 4,
+      "damageKind": "poisonbullet"
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": 10,
+        "weaponRotation": 10,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "cooldown": {
+        "duration": 0.15,
+        "armRotation": 10,
+        "weaponRotation": 10,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
   },
-  {
-    "op": "replace",
-    "path": "/upgradeParameters/inventoryIcon",
-    "value": "peepeeass_l6.png"
-  },
-  {
-    "op": "replace",
-    "path": "/upgradeParameters/animationParts/middle",
-    "value": "peepeeass_l6.png"
-  },
-  {
-    "op": "replace",
-    "path": "/upgradeParameters/shortdescription",
-    "value": "pee pee ass launcher ^yellow;^reset;"
-  },
-  {
-    "op": "add",
-    "path": "/upgradeParameters/level",
-    "value": 10
-  },
-  {
-    "op": "add",
-    "path": "/upgradeParameters/primaryAbility",
-    "value": {
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters": {
+    "shortdescription": "pee pee ass launcher ^yellow;^reset;",
+    "inventoryIcon": "peepeeass_l6.png",
+    "animationParts": { "middle": "peepeeass_l6.png" },
+    "level": 10,
+    "primaryAbility": {
       "projectileCount": 3,
       "projectileType": [
         "astraltear", "astraltearstart", "astraltearstop", "boomerang", "boomerang_l6", "fireboomerang", "fireboomerang_l6", "iceboomerang", "iceboomerang_l6", "lunarang", "lunarangshard", "lunarangshard_l6",
@@ -119,4 +176,4 @@
       ]
     }
   }
-]
+}
