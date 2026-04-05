@@ -53,7 +53,10 @@
     "projectileCount": 69,
     "fireType": "auto",
 
-    "projectileType": [ "beachball", "bowlingball", "bouncyball", "paperplane", "noveltybanana", "throwingboulder", "crystalshard1", "crystalshard2", "crystalshard4", "crystalshard6", "dragonhead", "spiderlegright", "spiderlegleft", "coconut" ],
+    "projectileType": [
+      "beachball", "bowlingball", "bouncyball", "paperplane", "noveltybanana", "throwingboulder", "crystalshard1", "crystalshard2", "crystalshard4", "crystalshard6", "dragonhead", "spiderlegright",
+      "spiderlegleft", "coconut", "pig", "fish2", "petball"
+    ],
     "projectileParameters": {
       "knockback": 30,
       "statusEffects": [ "weakpoison" ],
