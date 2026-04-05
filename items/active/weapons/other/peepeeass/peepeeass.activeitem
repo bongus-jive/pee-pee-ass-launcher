@@ -87,7 +87,7 @@
     }
   },
 
-  "builder": "/items/buildscripts/buildunrandweapon.lua",
+  "builder": "/items/active/weapons/other/peepeeass/peepeebuild.lua",
 
   "upgradeParameters": {
     "shortdescription": "pee pee ass launcher ^yellow;^reset;",
