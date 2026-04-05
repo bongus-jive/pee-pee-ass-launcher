@@ -31,7 +31,8 @@
       }
     },
     "sounds": {
-      "fire": [ "sounds/1.ogg", "sounds/2.ogg", "sounds/3.ogg", "sounds/4.ogg", "sounds/5.ogg", "sounds/6.ogg", "sounds/7.ogg", "sounds/8.ogg", "sounds/9.ogg", "sounds/10.ogg", "sounds/11.ogg", "sounds/12.ogg", "sounds/13.ogg" ]
+      "fire": [ "/sfx/gun/gristlegun3.ogg" ],
+      "funny": [ "sounds/1.ogg", "sounds/2.ogg", "sounds/3.ogg", "sounds/4.ogg", "sounds/5.ogg", "sounds/6.ogg", "sounds/7.ogg", "sounds/8.ogg", "sounds/9.ogg", "sounds/10.ogg", "sounds/11.ogg", "sounds/12.ogg", "sounds/13.ogg" ]
     }
   },
   "baseOffset": [ 0.75, 0.125 ],
@@ -74,7 +75,8 @@
         "weaponRotation": 10,
         "twoHanded": false,
         "allowRotate": false,
-        "allowFlip": true
+        "allowFlip": true,
+        "playSounds": [ "funny" ]
       },
       "cooldown": {
         "duration": 0.15,
